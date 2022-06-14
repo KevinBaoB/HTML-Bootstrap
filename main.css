@@ -72,5 +72,44 @@ ul.justify-content-center {
 }
 
 .col-three {
-  border-right: 2px solid rgb(202, 202, 202);
+  text-align: center;
+  padding: 1rem 1rem 1rem 2rem;
+  color: rgb(202, 202, 202);
+}
+
+.col-three:hover {
+  cursor: pointer;
+}
+
+.col-four {
+  padding-top: 1.4rem;
+  font-size: x-small;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.col-four:hover {
+  cursor: pointer;
+}
+
+.col-five {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-of-icons {
+  margin-top: 1.5rem;
+  border-top: 2px solid rgb(202, 202, 202);
+  border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+img.icons {
+  width: 3rem;
+  padding-left: 1rem;
+}
+
+img.icons:hover {
+  cursor: pointer;
 }
